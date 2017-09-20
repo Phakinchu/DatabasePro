@@ -16,3 +16,11 @@ Create a config file, just copy from `.env.example` then rename it to `.env`
 php -S localhost:8000 -t public
 ```
 
+## Troubleshoots
+
+* Call to undefined function bcrypt()
+
+use `crypt()` instead.
+
+
+
