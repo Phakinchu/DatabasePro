@@ -11,6 +11,10 @@
 |
 */
 
-$router->get('/', function () use ($router) {
+$router->get('/version', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/', 'IndexController@index');
+
+$router->get('/posts', 'PostController@index');
