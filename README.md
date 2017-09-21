@@ -1,4 +1,4 @@
-# blog
+# php-lumen-101
 
 ## installation
 
