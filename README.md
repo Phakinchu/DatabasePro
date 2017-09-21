@@ -1,5 +1,7 @@
 # php-lumen-101
 
+[![StyleCI](https://styleci.io/repos/104204338/shield?branch=master)](https://styleci.io/repos/104204338)
+
 ## installation
 
 1. Install dependencies
