@@ -24,11 +24,17 @@ php artisan migrate:refresh --seed
 php -S localhost:8000 -t public
 ```
 
+## References
+
+* [Lumen framework](https://lumen.laravel.com)
+* [Eloquent ORM](https://laravel.com/docs/5.5/eloquent)
+* [Database migrations](https://laravel.com/docs/5.5/migrations)
+* [Database seedings](https://laravel.com/docs/5.5/seeding)
+* [Blade template engine](https://laravel.com/docs/5.5/blade)
+
 ## Troubleshoots
 
-* Call to undefined function bcrypt()
-
-use `crypt()` instead.
+* Call to undefined function bcrypt(): use `crypt()` instead.
 
 
 
