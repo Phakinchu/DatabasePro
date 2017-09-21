@@ -12,6 +12,7 @@ class PostsTableSeeder extends Seeder
     public function run()
     {
         DB::table('posts')->insert([
+            'id' => 1,
             'title' => 'Hello lumen',
             'user_id' => 1,
             'content' => 'For more info, visit: https://lumen.laravel.com/'

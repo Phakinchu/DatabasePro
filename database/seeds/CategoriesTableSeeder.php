@@ -12,6 +12,7 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
+            'id' => 1,
             'title' => 'General'
         ]);
     }
