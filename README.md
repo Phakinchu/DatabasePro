@@ -12,7 +12,9 @@ php composer.phar install
 
 2. Create a config file, just copy from `.env.example` then rename it to `.env`
 
-3. Migrate and seed the database
+3. Create a database named `blog`
+
+4. Migrate and seed the database
 
 ```
 php artisan migrate:refresh --seed
