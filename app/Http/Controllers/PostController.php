@@ -15,4 +15,11 @@ class PostController extends Controller
           'posts' => $posts
         ]);
     }
+
+    public function view($id)
+    {
+        return [
+            'id' => $id
+        ];
+    }
 }
